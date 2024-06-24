@@ -56,4 +56,5 @@ with tab2:
     if st.button("Salvar Histórico"):
         utils.salvar_dados(startDate,endDate,stocks,interval,obs, conn)
         
-        
+query_params = st.experimental_user
+print(query_params.email)       
